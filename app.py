@@ -13,7 +13,7 @@ def main():
     imc = CalcularIMC(indices[0],indices[1])     
     print(f"O IMC de Peso: {indices[0]:,.2f} e Altura: {indices[1]:,.2f} é: {imc:,.2f} - ", DefinirIMC(imc))   
 
-
+#calcula o IMC 
 def CalcularIMC(peso, altura):    
     IMC = peso/altura**2   
     return IMC
